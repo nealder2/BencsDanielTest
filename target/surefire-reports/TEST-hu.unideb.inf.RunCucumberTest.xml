@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="1" name="hu.unideb.inf.RunCucumberTest" time="188.229" errors="3" skipped="0">
+<testsuite tests="15" failures="0" name="hu.unideb.inf.RunCucumberTest" time="118.15" errors="4" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+7"/>
@@ -60,61 +60,35 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="10.198"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="3.289"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="4.045"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="4.877"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="6.045"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="6.84"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="8.118">
-    <failure message="expected:&lt;[MY ACCOUNT]&gt; but was:&lt;[AUTHENTICATION]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[MY ACCOUNT]&gt; but was:&lt;[AUTHENTICATION]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at hu.unideb.inf.StepDefinitions.loginIsSuccessful(StepDefinitions.java:71)
-	at ✽.Login is successful(classpath:hu/unideb/inf/BencsDaniTeszt.feature:30)
-</failure>
-    <system-out>
-Scenario Outline:                            &amp;#27;[90m# hu/unideb/inf/BencsDaniTeszt.feature:37&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe home page is opened&amp;#27;[0m              &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theHomePageIsOpened()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mThe Sign In Link clicked&amp;#27;[0m               &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theSignInLinkClicked()&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe credentials are filled correctly&amp;#27;[0m &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theCredentialsAreFilledCorrectly()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mThe Sign In button is clicked&amp;#27;[0m          &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theSignInButtonIsClicked()&amp;#27;[0m
-  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mLogin is successful&amp;#27;[0m                    &amp;#27;[90m# hu.unideb.inf.StepDefinitions.loginIsSuccessful()&amp;#27;[0m
-      &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;[MY ACCOUNT]&gt; but was:&lt;[AUTHENTICATION]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at hu.unideb.inf.StepDefinitions.loginIsSuccessful(StepDefinitions.java:71)
-	at ?.Login is successful(classpath:hu/unideb/inf/BencsDaniTeszt.feature:30)
-&amp;#27;[0m
-  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mThe &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;Addresses&apos;&amp;#27;[0m&amp;#27;[36m button is clicked&amp;#27;[0m      &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theBtnButtonIsClicked(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mThe &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;MY ADDRESSES&apos;&amp;#27;[0m&amp;#27;[36m is shown&amp;#27;[0m            &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theContentIsShown(java.lang.String)&amp;#27;[0m
-</system-out>
-    <system-err>[1588283849.660][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283849.807][SEVERE]: Timed out receiving message from renderer: 0.100
-</system-err>
-  </testcase>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="29.678"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="27.082"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="8.03"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="14.839"/>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="42.347">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&quot;My wishlists&quot;]&quot;}
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="8.682"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="2.899"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="2.965"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="5.022"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="5.576"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="5.697"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="5.945"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="6.578"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="7.097"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="3.567"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="6.672"/>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="22.464">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;wishlist_18803&quot;]/td[2]&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
-*** Element info: {Using=xpath, value=//a[@title=&quot;My wishlists&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&quot;My wishlists&quot;]&quot;}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
+*** Element info: {Using=xpath, value=//*[@id=&quot;wishlist_18803&quot;]/td[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;wishlist_18803&quot;]/td[2]&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
-*** Element info: {Using=xpath, value=//a[@title=&quot;My wishlists&quot;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
+*** Element info: {Using=xpath, value=//*[@id=&quot;wishlist_18803&quot;]/td[2]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -130,8 +104,8 @@ Session ID: 9452156d629e77abdae83a48388fb954
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at hu.unideb.inf.StepDefinitions.clickWishlist(StepDefinitions.java:165)
-	at ✽.Click wishlist(classpath:hu/unideb/inf/BencsDaniTeszt.feature:70)
+	at hu.unideb.inf.StepDefinitions.checkItemInWish(StepDefinitions.java:152)
+	at ✽.Check item in wish(classpath:hu/unideb/inf/BencsDaniTeszt.feature:71)
 </error>
     <system-out>
 Scenario:                                    &amp;#27;[90m# hu/unideb/inf/BencsDaniTeszt.feature:60&amp;#27;[0m
@@ -146,16 +120,17 @@ Scenario:                                    &amp;#27;[90m# hu/unideb/inf/BencsD
   &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mThe item is shown&amp;#27;[0m                     &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theItemIsShown()&amp;#27;[0m
   &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mAdd item to wish&amp;#27;[0m                      &amp;#27;[90m# hu.unideb.inf.StepDefinitions.addItemToWish()&amp;#27;[0m
   &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mClick account&amp;#27;[0m                         &amp;#27;[90m# hu.unideb.inf.StepDefinitions.clickAccount()&amp;#27;[0m
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mClick wishlist&amp;#27;[0m                        &amp;#27;[90m# hu.unideb.inf.StepDefinitions.clickWishlist()&amp;#27;[0m
-      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&quot;My wishlists&quot;]&quot;}
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mClick wishlist&amp;#27;[0m                        &amp;#27;[90m# hu.unideb.inf.StepDefinitions.clickWishlist()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mCheck item in wish&amp;#27;[0m                    &amp;#27;[90m# hu.unideb.inf.StepDefinitions.checkItemInWish()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;wishlist_18803&quot;]/td[2]&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
-*** Element info: {Using=xpath, value=//a[@title=&quot;My wishlists&quot;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
+*** Element info: {Using=xpath, value=//*[@id=&quot;wishlist_18803&quot;]/td[2]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -171,39 +146,42 @@ Session ID: 9452156d629e77abdae83a48388fb954
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at hu.unideb.inf.StepDefinitions.clickWishlist(StepDefinitions.java:165)
-	at ?.Click wishlist(classpath:hu/unideb/inf/BencsDaniTeszt.feature:70)
+	at hu.unideb.inf.StepDefinitions.checkItemInWish(StepDefinitions.java:152)
+	at ?.Check item in wish(classpath:hu/unideb/inf/BencsDaniTeszt.feature:71)
 &amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mCheck item in wish&amp;#27;[0m                    &amp;#27;[90m# hu.unideb.inf.StepDefinitions.checkItemInWish()&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mDelete item from wish&amp;#27;[0m                 &amp;#27;[90m# hu.unideb.inf.StepDefinitions.deleteItemFromWish()&amp;#27;[0m
 </system-out>
-    <system-err>[1588283937.434][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283937.535][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283937.637][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283951.540][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283951.641][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283951.762][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283958.200][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283958.335][SEVERE]: Timed out receiving message from renderer: 0.100
+    <system-err>[1588284150.523][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284150.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284154.056][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284155.331][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284157.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284157.801][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284157.904][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284158.006][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284159.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284160.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284161.525][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284161.702][SEVERE]: Timed out receiving message from renderer: 0.100
 </system-err>
   </testcase>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="11.507">
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="11.747">
     <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
 *** Element info: {Using=class name, value=login}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
 *** Element info: {Using=class name, value=login}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -233,8 +211,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
 *** Element info: {Using=class name, value=login}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -257,29 +235,28 @@ Session ID: 9452156d629e77abdae83a48388fb954
   &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mContact us is clicked&amp;#27;[0m   &amp;#27;[90m# hu.unideb.inf.StepDefinitions.contactUsIsClicked()&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mContact form appears&amp;#27;[0m     &amp;#27;[90m# hu.unideb.inf.StepDefinitions.contactFormAppears()&amp;#27;[0m
 </system-out>
-    <system-err>[1588283979.767][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283979.868][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283979.969][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283980.092][SEVERE]: Timed out receiving message from renderer: 0.100
+    <system-err>[1588284173.217][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284173.318][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284173.420][SEVERE]: Timed out receiving message from renderer: 0.100
 </system-err>
   </testcase>
-  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="11.334">
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="11.581">
     <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
 *** Element info: {Using=class name, value=login}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
   (Session info: chrome=81.0.4044.129)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
 *** Element info: {Using=class name, value=login}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -309,8 +286,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9452156d629e77abdae83a48388fb954
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
 *** Element info: {Using=class name, value=login}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -332,9 +309,82 @@ Session ID: 9452156d629e77abdae83a48388fb954
 &amp;#27;[0m
   &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mHome navigation button clicked&amp;#27;[0m &amp;#27;[90m# hu.unideb.inf.StepDefinitions.homeNavigationButtonClicked()&amp;#27;[0m
 </system-out>
-    <system-err>[1588283991.159][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283991.260][SEVERE]: Timed out receiving message from renderer: 0.100
-[1588283991.363][SEVERE]: Timed out receiving message from renderer: 0.100
+    <system-err>[1588284184.867][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284184.975][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284185.078][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="YourLogo login process" name="EMPTY_NAME" time="11.658">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
+*** Element info: {Using=class name, value=login}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
+*** Element info: {Using=class name, value=login}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at hu.unideb.inf.StepDefinitions.theSignInLinkClicked(StepDefinitions.java:36)
+	at ✽.The Sign In Link clicked(classpath:hu/unideb/inf/BencsDaniTeszt.feature:5)
+</error>
+    <system-out>
+Scenario:                        &amp;#27;[90m# hu/unideb/inf/BencsDaniTeszt.feature:81&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe home page is opened&amp;#27;[0m  &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theHomePageIsOpened()&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mThe Sign In Link clicked&amp;#27;[0m   &amp;#27;[90m# hu.unideb.inf.StepDefinitions.theSignInLinkClicked()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login&quot;}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JJBHI4N&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\DANIEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16e9401e3492f00f412645eebed98db5
+*** Element info: {Using=class name, value=login}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at hu.unideb.inf.StepDefinitions.theSignInLinkClicked(StepDefinitions.java:36)
+	at ?.The Sign In Link clicked(classpath:hu/unideb/inf/BencsDaniTeszt.feature:5)
+&amp;#27;[0m
+  &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mForgott password clicked&amp;#27;[0m &amp;#27;[90m# hu.unideb.inf.StepDefinitions.forgottPasswordClicked()&amp;#27;[0m
+</system-out>
+    <system-err>[1588284196.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588284196.650][SEVERE]: Timed out receiving message from renderer: 0.100
 </system-err>
   </testcase>
 </testsuite>

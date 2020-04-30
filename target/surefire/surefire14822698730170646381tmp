@@ -1,5 +1,5 @@
 #surefire
-#Fri May 01 00:01:28 CEST 2020
+#Fri May 01 00:10:57 CEST 2020
 testSuiteDefinitionTestSourceDirectory=C\:\\Users\\DanielBencs\\IdeaProjects\\BencsDanielTest\\src\\test\\java
 includes1=**/*Test.java
 includes2=**/*TestCase.java

@@ -149,7 +149,7 @@ public class StepDefinitions {
 
     @Then("Check item in wish")
     public void checkItemInWish() {
-        String quantity = driver.findElement(By.xpath("//*[@id=\"wishlist_18803\"]/td[2]")).getText();
+        String quantity = driver.findElement(By.xpath("//*[@id=starts-with(., \"wishlist_\")]/td[2]")).getText();
         Assert.assertNotEquals(0, quantity);
 
         signOutButtonIsClicked();
@@ -167,7 +167,7 @@ public class StepDefinitions {
 
     @Then("Delete item from wish")
     public void deleteItemFromWish() {
-        driver.findElement(By.xpath("//*[@id=\"wishlist_18803\"]/td[6]/a/i")).click();
+        driver.findElement(By.xpath("//*[@id=starts-with(., \"wishlist_\")]/td[6]/a/i")).click();
     }
 
     @Given("Contact us is clicked")
