@@ -58,7 +58,10 @@ Feature: YourLogo login process
     Then The item is shown
 
   Scenario:
-    Given Actual search term entered
+    Given The credentials are filled correctly
+    And The Sign In button is clicked
+    And Login is successful
+    And Actual search term entered
     And The search result is found
     And The search result is clicked
     Then The item is shown
@@ -67,3 +70,13 @@ Feature: YourLogo login process
     Then Click wishlist
     Then Check item in wish
     Then Delete item from wish
+
+  Scenario:
+    Given Contact us is clicked
+    Then Contact form appears
+
+  Scenario:
+    Given Home navigation button clicked
+
+  Scenario:
+    Given Forgott password clicked

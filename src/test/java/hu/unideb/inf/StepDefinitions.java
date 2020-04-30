@@ -152,12 +152,12 @@ public class StepDefinitions {
         String quantity = driver.findElement(By.xpath("//*[@id=\"wishlist_18803\"]/td[2]")).getText();
         Assert.assertNotEquals(0, quantity);
 
-
+        signOutButtonIsClicked();
     }
 
     @Then("Click account")
     public void clickAccount() {
-        driver.findElement(By.className("account")).click();
+        driver.findElement(By.xpath("//a[@title=\"View my customer account\"]")).click();
     }
 
     @Then("Click wishlist")
@@ -168,5 +168,29 @@ public class StepDefinitions {
     @Then("Delete item from wish")
     public void deleteItemFromWish() {
         driver.findElement(By.xpath("//*[@id=\"wishlist_18803\"]/td[6]/a/i")).click();
+    }
+
+    @Given("Contact us is clicked")
+    public void contactUsIsClicked() {
+        driver.findElement(By.xpath("//a[@title=\"Contact Us\"]")).click();
+    }
+
+    @Then("Contact form appears")
+    public void contactFormAppears() {
+        //*[@id="center_column"]/h1
+        Assert.assertEquals("CUSTOMER SERVICE - CONTACT US", driver.findElement(By.xpath("//*[@id=\"center_column\"]/h1")).getText());
+    }
+
+    @Given("Home navigation button clicked")
+    public void homeNavigationButtonClicked() {
+        driver.findElement((By.xpath("//*[@id=\"columns\"]/div[1]/a"))).click();
+    }
+
+    @Given("Forgott password clicked")
+    public void forgottPasswordClicked() {
+        driver.findElement(By.xpath("//*[@id=\"login_form\"]/div/p[1]/a")).click();
+        String header = driver.findElement(By.xpath("//*[@id=\"center_column\"]/div/h1")).getText();
+
+        Assert.assertEquals("FORGOT YOUR PASSWORD?", header);
     }
 }
